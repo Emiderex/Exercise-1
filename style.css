@@ -1,6 +1,6 @@
 :root {
-    --bg-color: hsl(216, 5%, 18%);
-    --bg-color2: rgb(95, 64, 123);
+  --bg-color: hsl(216, 5%, 18%);
+  --bg-color2: rgb(95, 64, 123);
 }
 
 body {
@@ -23,40 +23,39 @@ main {
   max-width: 400px;
   background-color: white;
   border-radius: 10px;
-
 }
 
 h1 {
-    position: absolute;
-    font-size: 40px;
-    font-weight: bolder;
-    background-color: var(--bg-color2);    
-    color: black;
-    text-align: center;
-    padding: 30px 50px;
-    border-radius: 5px;
-    top: -20%;
-    left: 10%;
-    right: 10%;
+  position: absolute;
+  font-size: 40px;
+  font-weight: bolder;
+  background-color: var(--bg-color2);
+  color: black;
+  text-align: center;
+  padding: 30px 50px;
+  border-radius: 5px;
+  top: -20%;
+  left: 10%;
+  right: 10%;
 }
 
 p {
-    font-size: 20px;
-    font-weight: 300;
-    word-spacing: 2px;
-    line-height: 28px;
+  font-size: 20px;
+  font-weight: 300;
+  word-spacing: 2px;
+  line-height: 28px;
 }
 
 @media (max-width: 360px) {
-    .container {
-        padding: 30px;
-    }
-    .container h1 {
-      font-size: 20px;
-      top: -10%;
-    }
-    p {
-    font-size: 1rem;
-      padding-top: 50px;
-    }
+  .container {
+    padding: 30px;
   }
+  .container h1 {
+    font-size: 20px;
+    top: -10%;
+  }
+  p {
+    font-size: 1rem;
+    padding-top: 50px;
+  }
+}
