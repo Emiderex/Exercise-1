@@ -1,6 +1,11 @@
+:root {
+    --bg-color: hsl(216, 5%, 18%);
+    --bg-color2: rgb(95, 64, 123);
+}
+
 body {
-  font-family: "Outfit", sans-serif;
-  background: hsl(212, 45%, 89%);
+  font-family: "outfit", sans-serif;
+  background-color: var(--bg-color);
 }
 
 main {
@@ -9,4 +14,35 @@ main {
   align-items: center;
   height: 100vh;
   margin: 0;
+}
+
+.container {
+  position: relative;
+  padding: 50px;
+  padding-top: 90px;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+h1 {
+    position: absolute;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: var(--bg-color2);    
+    color: black;
+    text-align: center;
+    padding: 30px 50px;
+    border-radius: 5px;
+    top: -20%;
+    left: 10%;
+    right: 10%;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 28px;
 }
